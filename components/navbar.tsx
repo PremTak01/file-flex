@@ -19,12 +19,14 @@ export default function Navbar({}): any {
       <Link href="/" className="min-h-screen flex justify-center items-center">
         <Image
           alt="logo"
-          className="w-20 cursor-pointer"
+          className="w-20 cursor-pointer animate-bounce"
           src="/images/logo.png"
           height={100}
           width={170}
         />
-        <p className="mt-3 text-3xl font-thin hover:font-extrabold">File Flex</p>
+        <p className="mt-3 text-3xl font-thin hover:font-extrabold">
+          File Flex
+        </p>
       </Link>
       <div className="hidden gap-1 md:gap-2 lg:gap-4 md:flex">
         <Button variant="ghost" className="font-semibold text-md">

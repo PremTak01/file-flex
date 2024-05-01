@@ -105,12 +105,12 @@ export default function PrivacyPolicy() {
         <p>
           If you have any questions or concerns about this Privacy Policy or the
           data we collect, please contact us at
-          souhailbenlhachemi1999@gmail.com.
+          premtak2002@gmail.com.
         </p>
       </div>
 
       <p>
-        By using Modifio, you agree to the practices outlined in this Privacy
+        By using File Flex, you agree to the practices outlined in this Privacy
         Policy. Please discontinue use of our services if you do not agree with
         this policy. Thank you for trusting us with your privacy.
       </p>
