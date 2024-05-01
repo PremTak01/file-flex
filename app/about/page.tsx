@@ -13,7 +13,7 @@ export default function About() {
         </h2>
         <p>
           Unleash your creativity with our image conversion tool. Whether you
-          need to resize, crop, rotate, or convert formats, we've got you
+          need to resize, crop, rotate, or convert formats, we&apos;ve got you
           covered. From JPEG to PNG, and everything in between, effortlessly
           enhance your visual content.
         </p>
@@ -49,7 +49,7 @@ export default function About() {
         <p>
           Unlike other services, we believe in empowering your creativity
           without hidden fees or restrictions. You can convert as many images,
-          audio files, and videos as your heart desires, and it won't cost you a
+          audio files, and videos as your heart desires, and it won&apos;t cost you a
           dime.
         </p>
       </div>
@@ -60,7 +60,7 @@ export default function About() {
         </h2>
         <p>
           Access Modifio from any device with an internet connection. Whether
-          you're on your computer, tablet, or smartphone, you can use our
+          you&apos;re on your computer, tablet, or smartphone, you can use our
           platform with ease.
         </p>
       </div>
@@ -92,7 +92,7 @@ export default function About() {
           📈 Constantly Evolving:
         </h2>
         <p>
-          We're committed to staying ahead of the curve. Expect regular updates
+          We&apos;re committed to staying ahead of the curve. Expect regular updates
           and new features to keep your multimedia experience fresh and
           exciting.
         </p>
@@ -100,7 +100,7 @@ export default function About() {
 
       <div className="space-y-2">
         <h2 className="text-xl md:text-2xl font-medium text-muted-foreground">
-          🌟 It's Free, It's Powerful, It's Modifio:
+          🌟 It&apos;s Free, It&apos;s Powerful, It&apos;s Modifio:
         </h2>
         <p>
           Experience the freedom to convert images, audio, and video without
