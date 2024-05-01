@@ -42,7 +42,7 @@ export default function Navbar({}): any {
       </div>
       <div className="items-center hidden gap-2 md:flex">
         <ThemeToggle />
-        <Link href="https://github.com/benlhachemi/modifio.git">
+        <Link target="_blank" href="https://github.com/PremTak01/file-flex">
           <Button
             variant="default"
             className="items-center hidden gap-2 bg-orange-600 rounded-full w-fit md:flex"
