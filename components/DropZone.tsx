@@ -43,9 +43,8 @@ const extensions = {
     "ico",
     "tif",
     "tiff",
-    "svg",
-    "raw",
     "tga",
+    "error",
   ],
   video: [
     "mp4",
@@ -92,7 +91,6 @@ export default function Dropzone() {
       ".ico",
       ".tif",
       ".tiff",
-      ".raw",
       ".tga",
     ],
     "audio/*": [],
@@ -285,15 +283,8 @@ export default function Dropzone() {
                 <span>Convert to</span>
                 <Select
                   onValueChange={(value) => {
-                    if (extensions.audio.includes(value)) {
-                      setDefaultValues("audio");
-                    } else if (extensions.video.includes(value)) {
-                      setDefaultValues("video");
-                    }
-                    setSelected(value);
                     updateAction(action.file_name, value);
                   }}
-                  value={selcted}
                 >
                   <SelectTrigger className="w-32 outline-none focus:outline-none focus:ring-0 text-center text-muted-foreground bg-background text-md font-medium">
                     <SelectValue placeholder="..." />
@@ -301,8 +292,8 @@ export default function Dropzone() {
                   <SelectContent className="h-fit">
                     {action.file_type.includes("image") && (
                       <div className="grid grid-cols-2 gap-2 w-fit">
-                        {extensions.image.map((elt, i) => (
-                          <div key={i} className="col-span-1 text-center">
+                        {extensions.image.map((elt, j) => (
+                          <div key={j} className="col-span-1 text-center">
                             <SelectItem value={elt} className="mx-auto">
                               {elt}
                             </SelectItem>
@@ -311,7 +302,7 @@ export default function Dropzone() {
                       </div>
                     )}
                     {action.file_type.includes("video") && (
-                      <Tabs defaultValue={defaultValues} className="w-full">
+                      <Tabs defaultValue="video" className="w-full">
                         <TabsList className="w-full">
                           <TabsTrigger value="video" className="w-full">
                             Video
